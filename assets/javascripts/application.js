@@ -18,9 +18,9 @@
 //set up a namespace for wrapping up methods and properties (public and private)
 //http://yuiblog.com/blog/2007/06/12/module-pattern/
 BLUE.app = function(){
-
-   return {
    
+   return {
+      
       init: function(){
          alert("Let's get ready to rumble.");
       }

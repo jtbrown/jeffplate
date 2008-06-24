@@ -38,7 +38,7 @@
    </head>
    <body>
       
-      <script type="text/javascript" src="/assets/javascripts/jquery.js"></script>
+      <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script>
       <script type="text/javascript" src="/assets/javascripts/application.js"></script>
       <script type="text/javascript" src="/assets/javascripts/utils.js"></script>
       <!--[if lt IE 8]>
@@ -50,18 +50,23 @@
          Remove if there is no need for swfobject
          //http://code.google.com/p/swfobject/
       -->
-      <script type="text/javascript" src="/assets/javascripts/swfobject/swfobject.js"></script>
       <script type="text/javascript">
          //A quick check to see if we are on a page that requires flash replacement
          //id should be replaced with the id that is surrounding
          var flash = document.getElementById('id');
          if (flash.length > 0) {
-            var flashvars = {};
-            var params = {
-               allowFullScreen: 'true'
-            };
-            var attributes = {};
-            swfobject.embedSWF('/path/to/swf', "id-to-replace", "width", "height", "9.0.0", "/javascripts/swfobject/expressInstall.swf", flashvars, params, attributes);
+            
+            //jquery specific code here.  If not including the jquery library in a project this
+            //will need modification/removal.  Also, thought will need to be put into the instance
+            //when there are multiple swf files that need to be served throughout the site
+            $.getScript("http://swfobject.googlecode.com/svn/tags/rc3/swfobject/swfobject.js", function(){
+               var flashvars = {};
+               var params = {
+                  allowFullScreen: 'true'
+               };
+               var attributes = {};
+               swfobject.embedSWF('/local/path/to/swf', "id-to-replace", "width", "height", "9.0.0", "http://swfobject.googlecode.com/svn/tags/rc3/swfobject/expressInstall.swf", flashvars, params, attributes);
+            });
          }         
       </script>
    </body>
