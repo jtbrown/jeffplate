@@ -1,0 +1,68 @@
+<!--
+/* SVN FILE: $Id$ */
+/**
+* Home
+*
+* BluePlate - BlueAtlas base template files
+* Copyright 2008 - Present,
+*      19508 Amaranth Dr., Suite D, Germantown, Maryland 20874 | 301.540.5950
+*
+* Redistributions of files must retain the above notice.
+*
+* @filesource
+* @copyright		Copyright 2008 - Present, Blue Atlas Interactive
+* @version			$Rev$
+* @modifiedby		$LastChangedBy$
+* @lastmodified	$Date$
+*/
+--> <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>{Site Name}</title>
+      <link rel="stylesheet" type="text/css" href="/assets/stylesheets/base.css" media="screen,projection">
+      <link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print">
+      <!--
+      //http://www.quirksmode.org/css/condcom.html
+      //See /assets/css/ie/README.txt
+      -->
+      <!--[if IE]>
+         <link rel="stylesheet" type="text/css" href="/assets/stylesheets/ie/ie.css" media="screen,projection">
+      <![endif]-->
+      <!--[if IE 7]>
+         <link rel="stylesheet" type="text/css" href="/assets/stylesheets/ie/ie7.css" media="screen,projection">
+      <![endif]-->
+      <!--[if lt IE 7]>
+         <link rel="stylesheet" type="text/css" href="/assets/stylesheets/ie/ielt7.css" media="screen,projection">
+      <![endif]-->
+   </head>
+   <body>
+      
+      <script type="text/javascript" src="/assets/javascripts/jquery.js"></script>
+      <script type="text/javascript" src="/assets/javascripts/application.js"></script>
+      <script type="text/javascript" src="/assets/javascripts/utils.js"></script>
+      <!--[if lt IE 8]>
+         //http://dean.edwards.name/weblog/2008/01/ie7-2/
+         <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+      <![endif]-->
+      
+      <!--
+         Remove if there is no need for swfobject
+         //http://code.google.com/p/swfobject/
+      -->
+      <script type="text/javascript" src="/assets/javascripts/swfobject/swfobject.js"></script>
+      <script type="text/javascript">
+         //A quick check to see if we are on a page that requires flash replacement
+         //id should be replaced with the id that is surrounding
+         var flash = document.getElementById('id');
+         if (flash.length > 0) {
+            var flashvars = {};
+            var params = {
+               allowFullScreen: 'true'
+            };
+            var attributes = {};
+            swfobject.embedSWF('/path/to/swf', "id-to-replace", "width", "height", "9.0.0", "/javascripts/swfobject/expressInstall.swf", flashvars, params, attributes);
+         }         
+      </script>
+   </body>
+</html>
