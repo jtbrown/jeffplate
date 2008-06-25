@@ -20,25 +20,16 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <title>{Site Name}</title>
-      <link rel="stylesheet" type="text/css" href="/assets/stylesheets/base.css" media="screen,projection">
-      <link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print">
+      <link rel="stylesheet" type="text/css" href="/assets/css/base.css" media="screen, projection">
+      <link rel="stylesheet" type="text/css" href="/assets/css/blueprint/print.css" media="print">
       <!--
       //http://www.quirksmode.org/css/condcom.html
-      //See /assets/css/ie/README.txt
       -->
-      <!--[if IE]>
-         <link rel="stylesheet" type="text/css" href="/assets/stylesheets/ie/ie.css" media="screen,projection">
-      <![endif]-->
-      <!--[if IE 7]>
-         <link rel="stylesheet" type="text/css" href="/assets/stylesheets/ie/ie7.css" media="screen,projection">
-      <![endif]-->
-      <!--[if lt IE 7]>
-         <link rel="stylesheet" type="text/css" href="/assets/stylesheets/ie/ielt7.css" media="screen,projection">
-      <![endif]-->
+      <!--[if IE]><link rel="stylesheet" href="/assets/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
    </head>
    <body>
       
-      <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
       <script type="text/javascript" src="/assets/javascripts/application.js"></script>
       <script type="text/javascript" src="/assets/javascripts/utils.js"></script>
       <!--[if lt IE 8]>
@@ -59,13 +50,13 @@
             //jquery specific code here.  If not including the jquery library in a project this
             //will need modification/removal.  Also, thought will need to be put into the instance
             //when there are multiple swf files that need to be served throughout the site
-            $.getScript("http://swfobject.googlecode.com/svn/tags/rc3/swfobject/swfobject.js", function(){
+            $.getScript("/assets/javascripts/swfobject/swfobject.js", function(){
                var flashvars = {};
                var params = {
                   allowFullScreen: 'true'
                };
                var attributes = {};
-               swfobject.embedSWF('/local/path/to/swf', "id-to-replace", "width", "height", "9.0.0", "http://swfobject.googlecode.com/svn/tags/rc3/swfobject/expressInstall.swf", flashvars, params, attributes);
+               swfobject.embedSWF('/local/path/to/swf', "id-to-replace", "width", "height", "9.0.0", "/assets/javascripts/swfobject/expressInstall.swf", flashvars, params, attributes);
             });
          }         
       </script>
