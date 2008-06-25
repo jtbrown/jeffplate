@@ -2,7 +2,7 @@
 /**
  * ReadMe
  *
- * BluePlate - BlueAtlas base template files
+ * BluePlate - BlueAtlas base css files
  * Copyright 2008 - Present, Blue Atlas Interactive http://www.blueatlas.com
  *      19508 Amaranth Dr., Suite D, Germantown, Maryland 20874
  *
@@ -25,6 +25,7 @@ DESCRIPTION
 
 Resource: http://www.alistapart.com/articles/frameworksfordesigners
 Resource: http://www.thinkvitamin.com/features/design/creating-sexy-stylesheets
+http://code.google.com/p/blueprintcss/
 
 This project consists of a set of CSS framework files which should allow us to get up and 
 running more quickly when putting together a site.  
@@ -45,7 +46,4 @@ Etc
 NOTES
 /*******
 
-More discussion is needed regarding the placement of generic classes 
-(such as .hide or .show or .javascript_only).  Also, discussion should take place 
-regarding standardizing on grid id�s, the number of http requests that result from using a 
-framework (and the steps we can take to minimize these http requests, etc)
+
