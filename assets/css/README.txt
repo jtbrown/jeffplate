@@ -2,7 +2,6 @@
 /**
  * ReadMe
  *
- * BluePlate - BlueAtlas base css files
  * Copyright 2008 - Present, Blue Atlas Interactive http://www.blueatlas.com
  *      19508 Amaranth Dr., Suite D, Germantown, Maryland 20874
  *
