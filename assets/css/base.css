@@ -15,3 +15,11 @@
  */
 
 @import url("blueprint/screen.css");
+
+/* CONTAINER 
+===================================================== */
+#container{background:#000;}
+
+/* HEADER 
+===================================================== */
+#header{width:100%;}
