@@ -15,6 +15,7 @@
  * @lastmodified	$Date$
  *
  */
+BLUE = BLUE || {};
 BLUE.utils = function(){
 
    return {

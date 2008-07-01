@@ -15,6 +15,11 @@
  * @lastmodified	$Date$
  */
 
+/*******
+TODO
+/*******
+With each new project there are a few things that need to be done
+1) Open blueprint/print.css and modify (" attr(href) ") to that href is the actual href of the project (for example: http://www.project.com)
 
 /*******
 DESCRIPTION

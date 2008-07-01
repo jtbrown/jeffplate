@@ -16,10 +16,34 @@
 
 @import url("blueprint/screen.css");
 
+body {
+   text-align: center;
+}
+
 /* CONTAINER 
 ===================================================== */
-#container{background:#000;}
+div.container {
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto
+}
 
 /* HEADER 
 ===================================================== */
-#header{width:100%;}
+#header {}
+
+/* META
+===================================================== */
+#meta {
+   text-align: right
+}
+
+/* NAV 
+===================================================== */
+#nav li {
+   display: inline;
+}
+
+/* FOOTER 
+===================================================== */
+#footer {}

@@ -17,12 +17,13 @@
 
 //set up a namespace for wrapping up methods and properties (public and private)
 //http://yuiblog.com/blog/2007/06/12/module-pattern/
+BLUE = {};
 BLUE.app = function(){
    
    return {
       
       init: function(){
-         alert("Let's get ready to rumble.");
+         
       }
       
    };
@@ -30,4 +31,6 @@ BLUE.app = function(){
 }
 ();
 
-window.onload = BLUE.app.init();
+$(document).ready(function() {
+   BLUE.app.init();
+});
