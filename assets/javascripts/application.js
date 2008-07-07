@@ -23,7 +23,7 @@ BLUE.app = function(){
    return {
       
       init: function(){
-         
+
       }
       
    };
@@ -31,6 +31,6 @@ BLUE.app = function(){
 }
 ();
 
-$(document).ready(function() {
-   BLUE.app.init();
+google.setOnLoadCallback(function() {
+	BLUE.app.init();
 });

@@ -14,7 +14,11 @@
  * @lastmodified	$Date$
  */
 
-@import url("blueprint/screen.css");
+/*
+ * in the event that you need to modify screen.css, you should use the local version of screen.css
+ * located in css/blueprint_x.x.x
+ */
+@import url("http://blueplate.s3.amazonaws.com/css/blueprint_0.7.1/screen.css");
 
 body {
    text-align: center;
