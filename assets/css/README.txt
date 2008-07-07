@@ -10,10 +10,10 @@
  *
  * @filesource
  * @copyright		Copyright 2008 - Present, Blue Atlas Interactive
- * @version			$Rev$
+ * @version		$Rev$
  * @modifiedby		$LastChangedBy$
  * @lastmodified	$Date$
- * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @license		http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
 /*******
@@ -37,3 +37,6 @@ base.css - This file is used to import blueprint/screen.css.  It is also used to
 /*******
 NOTES
 /*******
+   *ie.css is not necessary, as any IE necessary hacks have been removed based on the inclusion of ie7.js (Dean Edwards - http://dean.edwards.name/weblog/2008/01/ie7-2/)
+   *print.css should be referenced directly, as it will need modification on a site by site basis.
+   *screen.css is being referenced from s3 storaga (http://blueplate.s3.amazonaws.com/css/blueprint_0.7.1/screen.css).  This file will most like NOT need modification, however if it does it can be referenced locally
