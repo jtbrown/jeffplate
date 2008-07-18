@@ -108,7 +108,8 @@
             $.getScript("http://blueplate.s3.amazonaws.com/javascripts/swfobject_2_1_rc2/swfobject.js", function(){
                var flashvars = {};
                var params = {
-                  allowFullScreen: 'true'
+                  allowFullScreen : 'true',
+                  wmode : 'opaque'
                };
                var attributes = {};
                swfobject.embedSWF('/local/path/to/swf', "id-to-replace", "width", "height", "9.0.0", "http://blueplate.s3.amazonaws.com/javascripts/swfobject_2_1_rc2/expressInstall.swf", flashvars, params, attributes);
