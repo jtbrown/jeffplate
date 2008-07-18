@@ -9,45 +9,43 @@
  *
  * @filesource
  * @copyright		Copyright 2008 - Present, Blue Atlas Interactive
- * @version		   $Rev$
+ * @version		    $Rev$
  * @modifiedby		$LastChangedBy$
  * @lastmodified	$Date$
  */
 
-/*
- * in the event that you need to modify screen.css, you should use the local version of screen.css
- * located in css/blueprint_x.x.x
- */
-@import url("http://blueplate.s3.amazonaws.com/css/blueprint_0.7.1/screen.css");
+@import url("http://yui.yahooapis.com/2.5.2/build/reset-fonts-grids/reset-fonts-grids.css");
+@import url("http://yui.yahooapis.com/2.5.2/build/base/base-min.css");
+body{color:#222;background:#fff}p img{float:left;margin:1.5em 1.5em 1.5em 0;padding:0}p img.right{float:right;margin:1.5em 0 1.5em 1.5em}a:focus,a:hover{color:#000}a{color:#009;text-decoration:underline}blockquote{margin:1.5em;color:#666;font-style:italic}strong{font-weight:bold}dfn{font-style:italic;font-weight:bold}sup,sub{line-height:0}abbr,acronym{border-bottom:1px dotted #666}address{margin:0 0 1.5em;font-style:italic}del{color:#666}pre,code{margin:1.5em 0;white-space:pre}table{margin-bottom:1.4em;width:100%}th{font-weight:bold;background:#C3D9FF}th,td{padding:4px 10px 4px 5px}tr.even td{background:#E5ECF9}tfoot{font-style:italic}caption{background:#eee}label{font-weight:bold}fieldset{padding:1.4em;margin:0 0 1.5em 0;border:1px solid #ccc}legend{font-weight:bold;font-size:1.2em}input.text,input.title,textarea,select{margin:0.5em 0;border:1px solid #bbb}input.text:focus,input.title:focus,textarea:focus,select:focus{border:1px solid #666}input.text,input.title{width:300px;padding:5px}input.title{font-size:1.5em}textarea{width:390px;height:250px;padding:5px}
 
-body {
-   text-align: center;
-}
-
-/* CONTAINER 
-===================================================== */
-div.container {
-   text-align: left;
-   margin-left: auto;
-   margin-right: auto
-}
-
-/* HEADER 
-===================================================== */
+/*_HEADER*/
 #header {}
 
-/* META
-===================================================== */
+/*_META*/
 #meta {
-   text-align: right
+   text-align: right;
+   padding: 1em
 }
 
-/* NAV 
-===================================================== */
+/*_NAV*/
 #nav li {
    display: inline;
 }
 
-/* FOOTER 
-===================================================== */
+/*_FOOTER*/
 #footer {}
+
+/*_CUSTOM*/
+.error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
+.error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
+.notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
+.success {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.error a {color:#8a1f11;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+.small {font-size:85%;margin-bottom:1.875em}
+.large {font-size:116%;margin-bottom:1.25em;}
+.hide {display:none;}
+.quiet {color:#666;}
+.loud {color:#000;}
+.highlight {background:#ff0;}
