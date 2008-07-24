@@ -442,6 +442,22 @@
                     <form action="/" method="post">
                         <fieldset>
                             <legend>
+                                Log In
+                            </legend>
+                            <label for="username">
+                                Username
+                            </label>
+                            <br/>
+                            <input type="text" name="username" id="username" />
+                            <br/>
+                            <label for="password">
+                                Password
+                            </label>
+                            <br/>
+                            <input type="password" name="password" id="password" />
+                        </fieldset>
+                        <fieldset>
+                            <legend>
                                 Personal information
                             </legend>
                             <label for="firstname">
@@ -475,6 +491,47 @@
                                 Dizziness
                             </label>
                         </fieldset>
+                        <fieldset>
+                            <legend>
+                                Race
+                            </legend>
+                            <input name="race" type="radio" value="aa" id="aa" />
+                            African American
+                            <br/>
+                            <input name="race" type="radio" value="hispanic" id="hispanic" />
+                            Hispanic
+                            <br/>
+                            <input name="race" type="radio" value="white" id="white" />
+                            White
+                            <br />
+                        </fieldset>
+                        <fieldset>
+                            <legend>
+                                Your Favorite Pet is a
+                            </legend>
+                            <select name="pets">
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="fish">Fish</option>
+                                <option value="hamster">Hamster</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend>
+                                Tell us all your hopes and dreams
+                            </legend>
+                            <textarea> I aspire to be like Jeff Brown. </textarea> 
+                        </fieldset>
+                        <fieldset>
+                            <legend>
+                                File Upload
+                            </legend>
+                            <input name="file" type="file" id="file" />
+                        </fieldset>
+                        <h3>Submit as as input tag</h3>
+                        <p><input type="submit" value="Submit" /> <input type="reset" value="Clear" />
+                        <h3>Submit as as button tag</h3>
+                        <p><button>Submit</button></p>
                     </form>
                     <h2><a name="text">Text Tags</a></h2>
                     <h3>abbr</h3>
