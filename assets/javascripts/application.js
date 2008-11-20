@@ -10,7 +10,7 @@
  *
  * @filesource
  * @copyright		Copyright 2008 - Present, Blue Atlas Interactive
- * @version		   $Rev$
+ * @version		    $Rev$
  * @modifiedby		$LastChangedBy$
  * @lastmodified	$Date$
  */
@@ -20,16 +20,16 @@
 BLUE = {};
 BLUE.app = function()
 {
-
     return {
-        init: function(){
-        
+        init: function()
+        {
+            
         }
     };
     
 }();
 
-google.setOnLoadCallback(function() {
+$(document).ready(function() {
 	BLUE.app.init();
 });
 
