@@ -75,5 +75,4 @@ BLUE.utils = function()
         }
     
     };
-
 }
