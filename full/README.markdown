@@ -10,25 +10,25 @@ The explicit directory structure looks like the following:
 2.  threecol.html
 3.  assets
   +  css
-    *  base.css
-    *  print.css
+    1.  base.css
+    2.  print.css
   +  documentation
-    *  deployment.html
-    *  layoutguide.html
-    *  styleguide.html
+    1.  deployment.html
+    2.  layoutguide.html
+    3.  styleguide.html
   +  images
-    *  bg
+    1.  bg
       -  100.jpg (test file)
       -  pic.gif (test file)
       -  test.jpg (test file)
-    *  native
+    2.  native
       -  png
       -  psd
   +  javascripts
-    *  application.js
-    *  SNIPPETS.txt
-    *  Generic text file containing copy/paste functions for use in projects
-    *  swfobject files in the event that the site needs to serve flash content
+    1.  application.js
+    2.  SNIPPETS.txt
+    3.  Generic text file containing copy/paste functions for use in projects
+    4.  swfobject files in the event that the site needs to serve flash content
 
 ## FILE EXPLANATION
 
