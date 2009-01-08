@@ -5,6 +5,7 @@ BluePlate represents the base template files for a new website constructed by Bl
 The explicit directory structure looks like the following:
 
 ## Root
+
   +  index.html
   +  threecol.html
   +  assets
