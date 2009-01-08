@@ -9,22 +9,22 @@ The explicit directory structure looks like the following:
 1.  index.html
 2.  threecol.html
 3.  assets
-  +  css
+  *  css
     1.  base.css
     2.  print.css
-  +  documentation
+  *  documentation
     1.  deployment.html
     2.  layoutguide.html
     3.  styleguide.html
-  +  images
+  *  images
     1.  bg
-      -  100.jpg (test file)
-      -  pic.gif (test file)
-      -  test.jpg (test file)
+      *  100.jpg (test file)
+      *  pic.gif (test file)
+      *  test.jpg (test file)
     2.  native
-      -  png
-      -  psd
-  +  javascripts
+      *  png
+      *  psd
+  *  javascripts
     1.  application.js
     2.  SNIPPETS.txt
     3.  Generic text file containing copy/paste functions for use in projects
