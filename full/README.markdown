@@ -1,35 +1,10 @@
-/* SVN FILE: $Id$ */
-/**
- * ReadMe
- *
- * BluePlate - BlueAtlas base template files
- * Copyright 2008 - Present, 
- *      19508 Amaranth Dr., Suite D, Germantown, Maryland 20874 | 301.540.5950 
- *
- * Redistributions of files must retain the above notice.
- *
- * @filesource
- * @copyright       Copyright 2008 - Present, Blue Atlas Interactive
- * @version         $Rev$
- * @modifiedby      $LastChangedBy$
- * @lastmodified    $Date$
- */
-
-/*******
-TODO
-/*******
-With each new project there are a few things that need to be done
-1) Remove all SVN meta info at the top of each file UNLESS you plan to move your work into version control (and you want the svn annotations) 
-
-/*******
-DESCRIPTION
-/*******
+# DESCRIPTION
 
 BluePlate represents the base template files for a new website constructed by Blue Atlas Interactive. 
 It would include the YUI CSS framework, as well as a number of other files.  
 The explicit directory structure looks like the following:
 
-Root
+## Root
   -index.html
   -threecol.html
   -assets
@@ -57,12 +32,10 @@ Root
         *Generic text file containing copy/paste functions for use in projects
         *swfobject files in the event that the site needs to serve flash content
 
-/*******
-FILE EXPLANATION
-/*******
+## FILE EXPLANATION
 
-index.html
-------------------------
+### index.html
+
     DOCTYPE
         HTML 4.01 Strict was used, fmi http://www.sitepoint.com/article/html-or-xhtml-does-it-matter
     LAYOUT
@@ -74,8 +47,4 @@ index.html
     JAVASCRIPT
         All JavaScripts have been linked to or placed just before the closing body tag.  For information on why this is optimal http://developer.yahoo.com/performance/rules.html#js_bottom
         SWFObject Flash replacement stored locally, more info (http://code.google.com/p/swfobject/)   
-        
-/*******
-NOTES
-/*******
 
