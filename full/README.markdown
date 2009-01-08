@@ -6,9 +6,9 @@ The explicit directory structure looks like the following:
 
 ## Root
 
-1  index.html
-2  threecol.html
-3  assets
+1.  index.html
+2.  threecol.html
+3.  assets
   +  css
     *  base.css
     *  print.css
