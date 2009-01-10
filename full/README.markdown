@@ -13,7 +13,7 @@ index.html's layout is based on the YUI CSS Framework Template System.  There ar
 ## CSS
 
 *  base.css contains all custom styling, including YUI components
-*  print.css is yourprint stylesheet
+*  print.css is your print stylesheet
 
 ## JAVASCRIPT
 
