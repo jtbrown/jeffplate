@@ -1,9 +1,19 @@
-if (!this.BLUE) {
-    BLUE = {};
+if (!this.BLUE.app) {
+    BLUE.app = {};
 }
 
-BLUE.utils = (function() {
+BLUE.app.utils = (function() {
     return {
+        console : function(type, err) {
+            if (window.console && window.console.firebug) {
+                if(type == 'dir') {
+                   console.type(err); 
+                } else if (type == 'log') {
+                    console.log(err);
+                }
+            }
+        },
+        
         getCookie: function(name)
         {
             alert(name);
