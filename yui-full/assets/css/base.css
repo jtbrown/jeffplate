@@ -17,11 +17,6 @@ body {
 /* 2. Default Styling */
 #__2_DEFAULT_STYLING__{}
 
-#meta {
-   text-align: right;
-   padding: 1em
-}
-
 p img.left {
     float: left;
     margin: 1.5em 1.5em 1.5em 0;
@@ -167,14 +162,6 @@ a {
 /* 5. Layout */
 #__5_LAYOUT__{}
 
-#bd {
-    
-}
-
-#hd {
-    
-}
-
 
 /* 6. Branding/Masthead */
 #__6_LOGO_BRANDING_MASTHEAD__{}
@@ -203,6 +190,18 @@ a {
 /* 9. Sitewide Elements */
 #__9_SITEWIDE_ELEMENTS__{}
 
+#meta {
+   text-align: right;
+   padding: 1em
+}
+
+#bd {
+    
+}
+
+#hd {
+    
+}
 
 /* 10. Generic Styles */
 #__10_GENERIC_STYLES__ {}
