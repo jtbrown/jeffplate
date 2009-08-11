@@ -1,0 +1,17 @@
+Lorem ipsum dolor. [77% = 10px]
+Lorem ipsum dolor. [85% = 11px]
+Lorem ipsum dolor. [93% = 12px] (was 92%)
+Lorem ipsum dolor. [100% = 13px]
+Lorem ipsum dolor. [108% = 14px] (was 107%)
+Lorem ipsum dolor. [116% = 15px] (was 114%)
+Lorem ipsum dolor. [123.1% = 16px] (was 122%)
+Lorem ipsum dolor. [131% = 17px] (was 129%)
+Lorem ipsum dolor. [138.5% = 18px] (was 136%)
+Lorem ipsum dolor. [146.5% = 19px] (was 144%)
+Lorem ipsum dolor. [153.9% = 20px] (was 152%)
+Lorem ipsum dolor. [161.6% = 21px] (was 159%)
+Lorem ipsum dolor. [167% = 22px]
+Lorem ipsum dolor. [174% = 23px]
+Lorem ipsum dolor. [182% = 24px]
+Lorem ipsum dolor. [189% = 25px]
+Lorem ipsum dolor. [197% = 26px] 
