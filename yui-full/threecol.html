@@ -27,39 +27,45 @@
             
             <div id="hd">
                 <div id="meta">
-                    link | link | link
+                    <ul role="navigation">
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                    </ul>
+                    <form role="search">
+                        <input type="text" name="search">
+                        <input type="submit" value="go">
+                    </form>
                 </div>
                 
-                <div id="logo">
+                <div id="logo" role="banner">
                     <h1>h1: Client Name</h1>
                     <p>p: Motto/subheading/mantra/etc</p>
                 </div>
                 
-                <div id="nav">
-                    <ul>
-                        <li>
-                            <a href="#" title="">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#" title="">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#" title="">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#" title="">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#" title="">Link 1</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul id="nav" role="navigation">
+                    <li>
+                        <a href="#" title="">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#" title="">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#" title="">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#" title="">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#" title="">Link 1</a>
+                    </li>
+                </ul>
             </div>
             
             <div id="bd">
                 <div class="yui-gb">
                     <div class="yui-u first">
-                        <div class="pad">
+                        <div class="pad" role="complementary">
                             <h2>h2: Left Content</h2>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus sollicitudin risus. In non velit et tellus tincidunt sagittis. Vestibulum interdum tincidunt tortor. Duis iaculis feugiat dui. Duis fermentum. Nam ullamcorper mi nec nulla. Curabitur congue fringilla lacus. Nam id neque tincidunt sem porta luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam feugiat ornare lacus. 
@@ -76,7 +82,7 @@
                         </div>
                     </div>
                     <div class="yui-u">
-                        <div class="pad">
+                        <div class="pad" role="main">
                             <h2>h2: Middle Content</h2>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus sollicitudin risus. In non velit et tellus tincidunt sagittis. Vestibulum interdum tincidunt tortor. Duis iaculis feugiat dui. Duis fermentum. Nam ullamcorper mi nec nulla. Curabitur congue fringilla lacus. Nam id neque tincidunt sem porta luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam feugiat ornare lacus. 
@@ -93,7 +99,7 @@
                        </div>
                     </div>
                     <div class="yui-u">
-                        <div class="pad">
+                        <div class="pad" role="complementary">
                             <h2>h2: Right Content</h2>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus sollicitudin risus. In non velit et tellus tincidunt sagittis. Vestibulum interdum tincidunt tortor. Duis iaculis feugiat dui. Duis fermentum. Nam ullamcorper mi nec nulla. Curabitur congue fringilla lacus. Nam id neque tincidunt sem porta luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam feugiat ornare lacus. 
@@ -112,7 +118,7 @@
                 </div>
             </div>
             
-            <div id="ft">
+            <div id="ft" role="contentinfo">
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 </p>

@@ -1,0 +1,45 @@
+/**
+ * NOTES: 
+ * Sections such as the default styling section are demarcated with 
+ * selectors such as #__DEFAULT_STYLING__.  This is useful in the event
+ * that your editor has an CSS outline view.
+ */
+
+/* 1. Body */
+#__1_BODY__{}
+
+
+/* 2. Default Styling */
+#__2_DEFAULT_STYLING__{}
+
+
+/* 3. Headings */
+#__3_HEADINGS__{}
+
+
+/* 4. Links */
+#__4_LINKS__{}
+
+
+/* 5. Layout */
+#__5_LAYOUT__{}
+
+
+/* 6. Branding/Masthead */
+#__6_LOGO_BRANDING_MASTHEAD__{}
+
+
+/* 7. Navigation */
+#__7_NAVIGATION__{}
+
+
+/* 8. Site Info / Footer */
+#__8_SITEINFO_FOOTER__{}
+
+
+/* 9. Sitewide Elements */
+#__9_SITEWIDE_ELEMENTS__{}
+
+
+/* 10. Generic Styles */
+#__10_GENERIC_STYLES__ {}
